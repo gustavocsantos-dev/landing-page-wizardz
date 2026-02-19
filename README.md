@@ -77,6 +77,18 @@ O objetivo é transformar a landing page em uma aplicação moderna utilizando *
 ```bash
 git clone https://github.com/gustavocsantos-dev/Landing-Page---WizardZ.git
 ```
+
+2. Acesse a pasta do projeto:
+
+```bash
+cd landing-page-wizardz
+```
+
+3. Abra o arquivo principal:
+
+- Localize o arquivo index.html na pasta raiz.
+
+- Dê um duplo clique no arquivo ou arraste-o para dentro do seu navegador de preferência (Chrome, Firefox, Edge, etc.).
 ---
 
 ## 👨🏻‍💻 Autor
