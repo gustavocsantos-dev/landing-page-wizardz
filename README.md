@@ -1,101 +1,36 @@
-# 🧙‍♂️ WizardZ - Landing Page
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## 📌 Sobre o Projeto
+## Getting Started
 
-A **WizardZ Landing Page** é um projeto front-end desenvolvido com foco em apresentação institucional para uma agência de marketing digital fictícia.
-
-A proposta da página é transmitir modernidade, profissionalismo e clareza na comunicação dos serviços oferecidos, como:
-
-- SEO
-- PPC
-- Social Media Marketing
-- Criação de Conteúdo
-
-O layout foi construído com uma estética minimalista, utilizando uma paleta clean com destaque em verde e preto, além de elementos gráficos modernos.
-
----
-
-## 🚀 Tecnologias Utilizadas
-
-- **HTML5**
-- **CSS3**
-- **JavaScript**
-- Responsividade com boas práticas de layout
-
----
-
-## 🎯 Objetivo do Projeto
-
-Este projeto foi desenvolvido com o objetivo de:
-
-- Praticar estruturação semântica em HTML
-- Trabalhar estilização moderna com CSS
-- Desenvolver layout responsivo
-- Simular uma landing page profissional para portfólio
-- Evoluir habilidades em front-end
-
----
-
-## 🖥️ Estrutura da Página
-
-A landing page contém:
-
-- Header com navegação
-- Seção principal (Hero Section)
-- Botão de Call-to-Action
-- Ilustração moderna
-- Seção de marcas/parceiros
-- Layout visual focado em conversão
-
----
-
-## 📷 Preview
-
-Abaixo está a prévia da interface:
-
-![WizardZ Preview](./assets/preview.png)
-
----
-
-## 🔮 Futuras Atualizações
-
-Em versões futuras do projeto, será realizada:
-
-- 🔁 **Integração com React**
-- Componentização da interface
-- Organização do projeto em arquitetura escalável
-- Possível integração com backend
-- Melhorias em performance
-
-O objetivo é transformar a landing page em uma aplicação moderna utilizando **React.js**, aplicando boas práticas como componentização, props e organização por pastas.
-
----
-
-## 📂 Como Executar o Projeto
-
-1. Clone o repositório:
-```bash
-git clone https://github.com/gustavocsantos-dev/Landing-Page---WizardZ.git
-```
-
-2. Acesse a pasta do projeto:
+First, run the development server:
 
 ```bash
-cd landing-page-wizardz
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-3. Abra o arquivo principal:
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- Localize o arquivo index.html na pasta raiz.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-- Dê um duplo clique no arquivo ou arraste-o para dentro do seu navegador de preferência (Chrome, Firefox, Edge, etc.).
----
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## 👨🏻‍💻 Autor
+## Learn More
 
-Desenvolvido por Gustavo Carvalho dos Santos
+To learn more about Next.js, take a look at the following resources:
 
----
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## 🔗 GitHub:
-https://github.com/gustavocsantos-dev
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
