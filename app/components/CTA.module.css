@@ -1,0 +1,54 @@
+.make {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: rgb(238, 238, 238);
+    border-radius: 50px;
+    width: 92rem;
+    height: 25rem;
+    margin: 0 auto;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+}
+
+.makeText {
+    padding:2.5rem 2rem;
+    display:flex ;
+    flex-direction: column;
+    gap: 2.5rem;
+    width: 40rem;
+    margin-left: 2.5rem;
+}
+
+.makeText h2 {
+    font-size: 2.5rem;
+}
+
+.makeText p {
+    font-size: 1.4rem;
+}
+
+.makeText button {
+    background-color: rgb(26, 26, 26);
+    color: white;
+    border-radius: 10px;
+    height: 4.5rem;
+    width: 22rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.studyBtn{
+    font-family: var(--font-kode);
+}
+
+.makeImgDiv{
+    display: flex;
+    margin-top:0 ;
+    justify-content: end;
+    align-items: center;
+    width: 40rem;
+}
+
+.makeImg{
+    margin-top: -8rem;
+}

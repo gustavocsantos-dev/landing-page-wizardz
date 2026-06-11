@@ -1,0 +1,263 @@
+.header {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    max-width: 105rem;
+    margin: 0 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerSection {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(26, 26, 26);
+    text-decoration: none;
+}
+
+
+.starLogo {
+    width: 4rem;
+    transform: rotate(40deg);
+}
+
+.nameLogo {
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+.navBtn {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+
+.nav a {
+    text-decoration: none;
+    padding: 25px;
+    font-size: 1.3rem;
+    color: rgb(26, 26, 26);
+}
+
+.headerBtn {
+    padding-right: 2rem;
+}
+
+.headerBtn button {
+    height: 3.2rem;
+    width: 13rem;
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    font-family: var(--font-kode);
+}
+
+.btnMobile {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none;
+    z-index: 1000;
+}
+
+.mobileMenu{
+    display: none;
+}
+
+.headerActions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+
+.quoteBtn {
+    cursor: pointer;
+    width: 13rem;
+    height: 3.2rem;
+    font-size: 1.3rem;
+    font-family: var(--font-kode);
+    background-color: #0000;
+    border-radius: 10px;
+}
+
+
+
+@media (max-width:1300px) {
+    .header{
+        max-width: 75rem;
+    }
+    
+    .navBtn{
+        gap: 1rem;
+    }
+
+}
+
+@media (max-width:1250px) {
+    .header{
+        max-width: 70rem;
+    }
+    
+    .starLogo{
+        width: 3rem;
+        height: 3rem;
+    }
+    .navBtn{
+        gap: 0.5rem;
+    }
+
+    .nameLogo {
+        font-size: 1.8rem;
+    }
+
+    .nav a {
+        font-size: 1.2rem;
+    }
+
+    .headerBtn button {
+        height: 3rem;
+        width: 12rem;
+        background-color: transparent;
+        border-radius: 10px;
+        font-size: 1.2rem;
+    }
+
+    .btnMobile {
+        display: block;
+    }
+
+  .navBtn {
+        display: none; 
+  }
+
+  .mobileMenu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 85%;
+        max-width: 380px;
+        height: 100vh;
+        background: white;
+        box-shadow: -4px 0 15px rgba(0, 0, 0, 0.1);
+        transition: right 0.4s ease-in-out;
+        z-index: 2000;
+        padding: 2rem 1.5rem;
+        display: flex;
+        flex-direction: column;
+  }
+
+  .mobileMenu.open {
+        right: 0;
+  }
+
+  .mobileMenuHeader {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 3rem;
+  }
+
+  .mobileNav {
+        display: flex;
+        flex-direction: column;
+        gap: 1.8rem;
+        margin-bottom: 3rem;
+  }
+
+  .mobileNav a {
+        font-size: 1.3rem;
+        color: rgb(26, 26, 26);
+        text-decoration: none;
+        padding: 8px 0;
+  }
+
+
+  .quoteBtn {
+        width: 100%;
+        font-size: 1.3rem;
+  }
+
+  .closeBtn {
+        background: none;
+        border: none;
+        cursor: pointer;
+        color: rgb(26, 26, 26);
+  }
+
+}
+
+@media (max-width:1200px){
+    .header{
+        max-width: 60rem;
+    }
+}
+
+@media (max-width:1000px){
+    .header{
+        max-width: 50rem;
+    }
+
+    .mobileMenu {
+        max-width: 300px;
+  }
+
+}
+
+@media (max-width:860px){
+    .header{
+        max-width: 40rem;
+    }
+}
+
+@media (max-width:700px){
+    .header{
+        max-width: 33rem;
+    }
+
+    .mobileMenu {
+        max-width: 220px;
+    }
+}
+
+@media (max-width:570px){
+    .header{
+        max-width: 28rem;
+    }
+}
+
+@media (max-width:480px){
+    .header{
+        max-width: 23rem;
+    }
+
+    .mobileMenu {
+        max-width: 180px;
+    }
+
+    .mobileNav a{
+        font-size: 1.1rem;
+    }
+
+    .quoteBtn {
+        width: 100%;
+        font-size: 1.1rem;
+  }
+}
+
+@media (max-width:400px){
+    .header{
+        max-width: 18rem;
+    }
+}

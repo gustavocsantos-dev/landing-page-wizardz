@@ -1,0 +1,88 @@
+.mainTitle {
+    display: flex;
+    justify-content: center;
+    gap: 18rem;
+    margin-top: 1rem;
+}
+
+.titleText {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 42rem;
+    gap: 2rem;
+    margin-left: -10rem;
+}
+
+.message {
+    font-size: 3rem;
+}
+
+.titleText p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.titleText button {
+    background-color: rgb(26, 26, 26);
+    color: white;
+    border-radius: 10px;
+    height: 5rem;
+    width: 20rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    border: none;
+}
+
+.consultationBtn{
+    font-family: var(--font-kode);
+}
+
+.titleImgSection {
+    width: 40rem;
+    margin-top: -2rem;
+    margin-left: -8rem;
+    
+}
+
+
+.logoSection {
+    margin: 5.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+}
+
+.subtitle{
+    font-size: 1.8rem;
+    width: 35vw;
+}
+
+.graphs{
+    display: flex;
+    gap: 2rem;
+}
+
+.profiles{
+    display: flex;
+    width: 42rem;
+    margin-top: 1rem;
+    gap: 8rem;
+    margin-left: -1rem;
+}
+
+.profileDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 1rem;
+}
+
+.profileText{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 0.5rem;
+}

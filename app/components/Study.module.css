@@ -1,0 +1,18 @@
+.study {
+    display: flex;
+    gap: 2rem;
+    width: 90rem;
+    margin: 7rem auto 7rem auto;
+    align-items: center;
+}
+
+.study h1 {
+    font-size: 2.5rem;
+    width: 16.2rem;
+    background-color: #04D98B;
+    padding: 0.3rem 1rem;
+}
+
+.study p {
+    font-size: 1.4rem;
+}

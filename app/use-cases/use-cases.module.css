@@ -1,0 +1,319 @@
+.mainTitle{
+    display: flex;
+    flex-direction: column;
+    width: 80rem;
+    height: 20rem;
+    align-items: center;
+    justify-self: center;
+    margin-top: 5rem;
+    gap: 1rem;
+}
+
+.mainTitle h1{
+    font-size: 3rem;
+}
+
+.mainTitle strong{
+    color: #3ecc91;
+}
+
+.mainTitle p{
+    color: #3ecc91;
+    font-size: 1.8rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 80rem;
+    height: 40rem;
+    align-items: start;
+    justify-self: center;
+    gap: 5rem;
+}
+
+.title{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.card h1{
+    font-size: 2.5rem;
+}
+
+.icon{
+    width: 0.4rem;
+    height: 2.8rem;
+    background-color: #3ecc91;
+}
+
+.cardSquare{
+    width: 100rem;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap: 3rem;
+    width: 80rem;
+}
+
+.cardSquare h2{
+    font-size: 1.8rem;
+}
+
+.cardSquare p{
+    font-size: 1.3rem;
+}
+
+.cardSquareItem{
+    width: 25rem;
+    height: 20rem;
+    background-color: rgb(250, 250, 250);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+.ecommerceFlex{
+    display: flex;
+    flex-direction: row;
+    width: 80rem;
+    justify-content: space-between;
+}
+
+.ecommerce{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-left: 3rem;
+    width: 38rem;
+}
+
+.ecommerceImg{
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.ecommerceImgDiv{
+    width: 25rem;
+    height: 20rem;
+    background-color: rgb(250, 250, 250);
+    border-radius: 20px;
+    display: flex;
+}
+
+.ecommerce h2{
+    font-size: 1.8rem;
+}
+
+.ecommerce p{
+    font-size: 1.3rem;
+}
+
+.ecommerce li{
+    font-size: 1.3rem;
+    margin-left: 1.5rem;
+}
+
+
+.client{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20rem;
+    margin-top: -2rem;
+}
+
+
+.squareSection{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.squareSection p {
+    font-size: 1.3rem;
+}
+
+.square1{
+    width: 2rem;
+    height: 2rem;
+    background-color: #3ecc91;
+}
+
+.square2{
+    width: 2rem;
+    height: 2rem;
+    background-color: #1a1a1a;
+}
+
+.square3{
+    width: 2rem;
+    height: 2rem;
+    background-color: #ececec;
+}
+
+.trend{
+    margin-top: -19rem;
+    margin-left: 5rem;
+}
+
+.trendText{
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: space-between;
+    width: 55rem;
+    margin-top: -17rem;
+    margin-left: 8rem;
+}
+
+
+.cardTrend{
+    display: flex;
+    flex-direction: column;
+    width: 80rem;
+    align-items: start;
+    justify-self: center;
+    margin-top: 5rem;
+}
+
+.cardTrend h1{
+    font-size: 2.5rem;
+}
+
+
+.cardTable{
+    display: flex;
+    flex-direction: column;
+    width: 80rem;
+    height: 40rem;
+    align-items: start;
+    justify-self: center;
+    gap: 5rem;
+    margin-top: 10rem;
+}
+
+.cardTable h1{
+    font-size: 2.5rem;
+}
+
+
+
+.tableContainer {
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
+    border-radius: 14px;
+    overflow: hidden;
+    border: 1px solid #d9d9d9;
+    background-color: #f5f5f5;
+}
+
+.caseTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.caseTable thead {
+    background-color: #f1f1f1;
+}
+
+.caseTable th {
+    text-align: left;
+    padding: 28px 24px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+.caseTable td {
+    padding: 26px 24px;
+    font-size: 1.2rem;
+    color: #5b6470;
+    border-top: 1px solid #dddddd;
+}
+
+.highlight {
+    color: #3ecc91 !important;
+    font-weight: 700;
+}
+
+.caseTable tr:hover {
+    background-color: #efefef;
+    transition: 0.2s ease;
+}
+
+
+.pipelineCircles{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 70rem;
+    margin-top: 5rem;
+}
+
+.circles{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 100%;
+    background-color: #3ecc91;
+}
+
+.pipelineLine{
+    width: 80rem;
+    background-color: #ececec;
+    height: 0.4rem;
+}
+
+.pipelineTexts{
+    display: flex;
+    text-align: center;
+    align-items: start;
+    gap: 12rem;
+}
+
+.pipelineTexts h5{
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    margin-top: -3rem;
+}
+
+.pipelineTexts p{
+    font-size: 1.2rem;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #1a1a1a;
+    width: 80rem;
+    height: 40rem;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    gap: 3rem;
+}
+
+.footerText{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 60rem;
+    margin-bottom: 3rem;
+}
+
+.footer h6{
+    font-size: 2.2rem;
+    color: white;
+}
+
+.footer p{
+    font-size: 1.5rem;
+    color: #3ecc91;
+}
