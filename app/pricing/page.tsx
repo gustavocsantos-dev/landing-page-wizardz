@@ -175,7 +175,7 @@ export default function Pricing(){
                     </div>
                 </div>
             </div>
-                <div className={styles.footer}>
+            <div className={styles.footer}>
                 <div className={styles.footerText}>
                     <div className={styles.footerTitle}>
                         <div className={styles.icon}></div>

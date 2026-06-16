@@ -91,6 +91,7 @@ export default function UseCases(){
                             alt="graph-circle"
                             width={450}
                             height={450}
+                            className={styles.clientImg}
                         />
                     </div>
                     <div className={styles.clientStats}>
@@ -209,6 +210,7 @@ export default function UseCases(){
                     alt="quotation-mark"
                     width={50}
                     height={50}
+                    className={styles.footerImg}
                 />
                 <div className={styles.footerText}>
                     <h6>"Wizardz transformed our digital footprint. Their algorithmic approach to content is unlike any other agency we've worked with."</h6>

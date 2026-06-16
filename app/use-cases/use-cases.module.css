@@ -317,3 +317,777 @@
     font-size: 1.5rem;
     color: #3ecc91;
 }
+
+@media (max-width:1300px){
+    .mainTitle{
+        width: 60rem;
+    }
+
+    .card{
+        width: 60rem;
+    }
+
+    .cardSquare{
+        width: 60rem;
+    }
+
+    .ecommerceFlex{
+        width: 60rem;
+    }
+
+    .client p{
+        font-size: 1.3rem;
+    }
+
+    .client{
+        gap: 6rem;
+    }
+
+    .cardTrend{
+        width: 60rem;
+    }
+
+    .trend{
+        margin-left: 0;
+    }
+
+    .trendImg{
+        width: 50rem;
+        height: 70rem;
+    }
+
+    .trendText{
+        width: 50rem;
+        justify-content: flex-start;
+        gap: 7rem;
+    }
+
+    .cardTable{
+        width: 60rem;
+    }
+
+    .pipelineCircles{
+        width: 57rem;
+    }
+
+    .pipelineTexts{
+        width: 60rem;
+        gap: 8rem;
+    }
+
+    .pipelineLine{
+        width: 60rem;
+    }
+
+    .footer{
+        width: 60rem;
+    }
+}
+
+@media (max-width:1000px){
+    .mainTitle{
+        width: 45rem;
+    }
+
+    .card{
+        width: 45rem;
+        margin-top: -5rem;
+    }
+
+    .cardSquare{
+        width: 45rem;
+    }
+
+    .cardSquareItem p{
+        font-size: 1.2rem;
+    }
+
+    .cardSquareItem h2{
+        font-size: 1.5rem;
+    }
+
+    .squareImg{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .ecommerceFlex{
+        width: 45rem;
+    }
+
+    .ecommerceImgDiv{
+        display: none;
+    }
+
+    .client p{
+        font-size: 1.3rem;
+    }
+
+    .client{
+        gap: 1rem;
+        flex-direction: column;
+        margin: 0 auto;
+        
+    }
+
+    .cardTrend{
+        width: 45rem;
+        margin-top: 15rem;
+    }
+
+    .trend{
+        width: 45rem;
+        
+    }
+
+    .title{
+        width: 45rem;
+    }
+
+    .trendImg{
+        width: 45rem;
+        height: 70rem;
+    }
+
+    .trendText{
+        font-size: 1.3rem;
+        justify-content: start;
+        gap: 6rem;
+        width: 0rem;
+        margin-left: 6rem;
+        margin-top: -17rem;
+    }
+
+    .cardTable{
+        width: 45rem;
+        margin-bottom: 10rem;
+    }
+
+    .pipelineCircles{
+        width: 40rem;
+    }
+
+    .pipelineTexts{
+        width: 40rem;
+        gap: 0rem;
+    }
+
+
+    .pipelineTexts h5{
+        font-size: 1.5rem;
+    }
+
+    .pipelineTexts p{
+        font-size: 1.3rem;
+    }
+
+    .pipelineLine{
+        width: 43rem;
+    }
+
+    .footer{
+        width: 45rem;
+    }
+
+    .footerText{
+        width: 40rem;
+    }
+
+    .footerText h6{
+        font-size: 1.7rem;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:740px){
+    .mainTitle{
+        width: 35rem;
+        text-align: center;
+    }
+
+    .card:nth-child(1 of .card){
+        height: 90rem;
+    }
+
+    .card{
+        width: 35rem;
+        margin-top: -2rem;
+
+    }
+
+    .cardSquare{
+        width: 35rem;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    .cardSquareItem{
+        gap: 2rem;
+    }
+
+    .cardSquareItem p{
+        font-size: 1.3rem;
+    }
+
+    .cardSquareItem h2{
+        font-size: 1.7rem;
+    }
+
+    .squareImg{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .ecommerceFlex{
+        width: 35rem;
+    }
+
+    .ecommerceImgDiv{
+        display: none;
+    }
+
+    .client p{
+        font-size: 1.3rem;
+    }
+
+    .client{
+        gap: 1rem;
+        flex-direction: column;
+        margin: 0 auto;
+        
+    }
+
+    .clientImg{
+        width: 25rem;
+        height: 25rem;
+    }
+
+    .cardTrend{
+        width: 35rem;
+        margin-top: 15rem;
+    }
+
+    .trend{
+        width: 35rem;
+        
+    }
+
+    .title h1{
+        font-size: 2rem;
+    }
+
+    .title{
+        width: 35rem;
+    }
+
+    .trendImg{
+        width: 30rem;
+        height: 50rem;
+        margin-top: 4rem;
+
+    }
+
+    .trendText{
+        font-size: 1.1rem;
+        gap: 3.5rem;
+        margin-left: 4rem;
+        margin-top: -14rem;
+    }
+
+    .cardTable{
+        width: 35rem;
+        margin-bottom: 10rem;
+    }
+
+    .caseTable td{
+        font-size: 1rem;
+    }
+
+    .caseTable th{
+        font-size: 1.1rem;
+    }
+
+    .pipelineCircles{
+        display: none;
+    }
+
+    .pipelineTexts{
+        width: 25rem;
+        flex-direction: column;
+        gap: 5rem;
+        margin-left: 6rem;
+        margin-top: 2rem;
+    }
+
+
+    .pipelineTexts h5{
+        font-size: 1.2rem;
+    }
+
+    .pipelineTexts p{
+        font-size: 1rem;
+    }
+
+    .pipelineLine{
+        display: none;
+    }
+
+    .footer{
+        width: 35rem;
+        gap: 4rem;
+        height: 30rem;
+    }
+
+    .footerText{
+        width: 30rem;
+    }
+
+    .footerImg{
+        width: 2.5em;
+        height: 2.5rem;
+    }
+
+    .footerText h6{
+        font-size: 1.2rem;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:580px){
+    .mainTitle{
+        width: 25rem;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .mainTitle h1{
+        font-size: 2.5rem;
+    }
+
+    .mainTitle p{
+        font-size: 1.5rem;
+    }
+
+    .card:nth-child(1 of .card){
+        height: 90rem;
+    }
+
+    .card{
+        width: 25rem;
+        margin-top: -2rem;
+        margin-left: -4rem;
+
+    }
+
+    .cardSquare{
+        width: 25rem;
+        flex-direction: column;
+    }
+
+    .cardSquareItem{
+        gap: 2rem;
+        width: 20rem;
+    }
+
+    .cardSquareItem p{
+        font-size: 1.3rem;
+    }
+
+    .cardSquareItem h2{
+        font-size: 1.7rem;
+    }
+
+    .squareImg{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .ecommerceFlex{
+        width: 25rem;
+    }
+
+    .ecommerceImgDiv{
+        display: none;
+    }
+
+    .client p{
+        font-size: 1.3rem;
+    }
+
+    .client{
+        gap: 1rem;
+        flex-direction: column;
+        margin: 0 auto;
+        
+    }
+
+    .squareSection p{
+        font-size: 1rem;
+    }
+
+    .square1,.square2,.square3{
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+
+
+    .clientImg{
+        width: 25rem;
+        height: 25rem;
+    }
+
+    .cardTrend{
+        width: 25rem;
+        margin-top: 10rem;
+    }
+
+    .trend{
+        width: 25rem;
+        
+    }
+
+    .title h1{
+        font-size: 2rem;
+    }
+
+    .title{
+        width: 25rem;
+    }
+
+    .trendImg{
+        width: 25rem;
+        height: 40rem;
+        margin-top: 8rem;
+
+    }
+
+    .trendText{
+        font-size: 0.8rem;
+        gap: 3.5rem;
+        margin-left: 3rem;
+        margin-top: -11rem;
+    }
+
+    .cardTable{
+        width: 25rem;
+        margin-bottom: 3rem;
+    }
+
+    .caseTable td{
+        font-size: 1rem;
+    }
+
+    .caseTable th{
+        font-size: 1.1rem;
+    }
+
+    .pipelineCircles{
+        display: none;
+    }
+
+    .pipelineTexts{
+        width: 25rem;
+        flex-direction: column;
+        gap: 5rem;
+        margin-left: 4rem;
+        margin-top: 2rem;
+    }
+
+
+    .pipelineTexts h5{
+        font-size: 1.2rem;
+    }
+
+    .pipelineTexts p{
+        font-size: 1rem;
+    }
+
+    .pipelineLine{
+        display: none;
+    }
+
+    .footer{
+        width: 25rem;
+        gap: 4rem;
+        height: 30rem;
+    }
+
+    .footerText{
+        width: 15rem;
+    }
+
+    .footerImg{
+        width: 2em;
+        height: 2rem;
+    }
+
+    .footerText h6{
+        font-size: 1rem;
+        margin: 0 auto;
+    }
+
+    .footerText p{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:480px){
+    .pipelineTexts{
+        margin-left: 1rem;
+        width: 25rem;
+        align-items: center;
+    }
+
+    .cardTable{
+        width: 20rem;
+        overflow: hidden;
+        margin-top: 7rem;
+        margin-bottom: -3rem;
+    }
+
+    .clientImg{
+        width: 18rem;
+        height: 18rem;
+    }
+
+    .cardTrend{
+        margin-top: 3rem;
+    }
+
+    .tableContainer {
+        width: 100%;
+        overflow-x: auto;
+        display: block;   
+    }
+
+    .caseTable {
+        width: 100%;
+        min-width: 500px;
+        border-collapse: collapse;
+    }
+
+    .caseTable th,
+    .caseTable td {
+        white-space: nowrap; 
+    }
+
+    .footer{
+        height: 25rem;
+    }
+
+    .footer h6{
+        font-size: 1rem;
+    }
+
+    .card:nth-child(4 of .card){
+        margin-bottom: 5rem;
+    }
+}
+
+@media (max-width:460px){
+    body{
+        width: 25rem;
+    }
+    
+    .mainTitle{
+        width: 20rem;
+    }
+
+    .mainTitle h1{
+        font-size: 2rem;
+    }
+
+    .title{
+        width: 20rem;
+    }
+
+    .title h1{
+        font-size: 2rem;
+    }
+
+    .card{
+        width: 20rem;
+    }
+
+    .cardSquare{
+        width: 20rem;
+    }
+
+    .cardSquareItem{
+        width: 20rem;
+    }
+
+    .ecommerce{
+        margin: 0;
+    }
+
+    .ecommerce li{
+        margin-bottom: 1.5rem;
+    }
+
+    .ecommerceFlex{
+        width: 20rem;
+    }
+
+    .square1,.square2,.square3{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .trendImg{
+        width: 20rem;
+        margin-left: -2rem;
+
+    }
+
+    .trend{
+        width: 20rem;
+    }
+
+    .trendText{
+        gap: 2.5rem;
+        margin-left: 0;
+    }
+
+    .cardTrend{
+        width: 20rem;
+    }
+
+    .pipelineTexts{
+        width: 20rem;
+    }
+
+    .pipelineLine{
+        width: 20rem;
+    }
+
+    .footer{
+        width: 20rem;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:415px){
+    body{
+        width: 20rem;
+    }
+    
+    .mainTitle{
+        width:15rem;
+    }
+
+    .mainTitle h1{
+        font-size: 1.5rem;
+    }
+
+    .mainTitle p{
+        font-size: 1.3rem;
+    }
+
+    .title{
+        width:12rem;
+    }
+
+    .title h1{
+        font-size: 1.5rem;
+    }
+
+    .card{
+        width:15rem;
+        gap: 3rem;
+    }
+
+    .card:nth-child(2 of .card){
+        margin-bottom: 4rem;
+        margin-top: -2rem;
+    }
+
+    .cardSquare{
+        width:15rem;
+    }
+
+    .cardSquareItem{
+        width:15rem;
+    }
+
+    .cardSquareItem p{
+        font-size: 1.2rem;
+    }
+
+    .cardSquareItem h2{
+        font-size: 1.4rem;
+    }
+
+    .ecommerce h2{
+        font-size: 1.4rem;
+    }
+
+    .ecommerce li{
+        margin-bottom: 1.5rem;
+    }
+
+    .ecommerceFlex{
+        width:15rem;
+    }
+
+    .clientImg{
+        width: 18rem;
+        height: 18rem;
+    }
+
+    .square1,.square2,.square3{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .cardTrend{
+        margin-top: 2rem;
+    }
+
+    .trendImg{
+        width:15rem;
+        height: 30rem;
+        margin-left: -2rem;
+
+    }
+
+    .trend{
+        width:15rem;
+    }
+
+    .trendText{
+        gap: 1.3rem;
+        margin-left: 0;
+        margin-top: -8rem;
+    }
+
+    .cardTrend{
+        width:15rem;
+    }
+
+    .pipelineTexts{
+        width:15rem;
+    }
+
+    .pipelineLine{
+        width:15rem;
+    }
+
+    .footer{
+        width:18rem;
+        margin: 0 auto;
+    }
+
+    .ecommerceFlex p{
+        font-size: 1.2rem;
+    }
+
+    .ecommerceFlex li{
+        font-size: 1.2rem;
+    }
+
+    .footer h6{
+        font-size: 0.9rem;
+    }
+}

@@ -60,7 +60,6 @@
     margin: 0 auto;
     justify-content: space-between;
     gap: 3rem;
-    width: 80rem;
 }
 
 .cardSquare h2{
@@ -107,7 +106,7 @@
 
 .pricingCard {
     width: 320px;
-    min-height: 520px;
+    height: 520px;
 
     background-color: #f5f5f5;
     border: 1px solid #d8d8d8;
@@ -214,7 +213,7 @@
     align-items: start;
     justify-self: center;
     gap: 5rem;
-    margin-top: 6rem;
+    margin-top: 5rem;
 }
 
 .cardTable h1{
@@ -444,12 +443,8 @@
 
     .pricingCards{
         width: 65rem;
-        margin: 0 auto;
         margin-top: 6rem;
-        display: flex;
         gap: 2rem;
-        justify-content: center;
-        align-items: stretch;
     }
 
     .featureComparison{
@@ -470,5 +465,702 @@
 }
 
 @media (max-width:1080px){
+    .mainTitle{
+        width: 55rem;
+    }
     
+    .mainTitle h1{
+        font-size: 2.5rem;
+    }
+
+    .mainTitle p{
+        font-size: 2rem;
+    }
+
+    .mainTitle span{
+        font-size: 1.3rem;
+    }
+
+    .title h1{
+        font-size: 2rem;
+    }
+
+    .card{
+        width: 55rem;
+    }
+    
+    .cardSquare{
+        width: 55rem;
+        gap: 2rem;
+    }
+
+    .squareImg{
+        width: 2rem;
+        height: 2rem;
+    }
+    .cardSquare h2{
+        font-size: 1.5rem;
+    }
+
+    .cardSquare p{
+        font-size: 1.2rem;
+    }
+
+
+    .services{
+        width: 55rem;
+    }
+
+    .pricingCards{
+        width: 55rem;
+    }
+
+    .planName{
+        font-size: 2rem;
+    }
+
+    .price{
+        font-size: 2.5rem;
+    }
+    
+    .features{
+        margin-bottom: 2rem;
+    }
+
+    .features li{
+        font-size: 1.2rem;
+    }
+
+    .pricingCards button{
+        width: 9rem;
+        margin: 0 auto;
+        font-size: 1.2rem;
+    }
+
+    .featureComparison{
+        width: 55rem;
+        height: 40rem;
+    }
+
+    .featureComparison th{
+        font-size: 1.1rem;
+    }
+
+    .featureComparison td{
+        font-size: 1.1rem;
+    }
+
+    .cardTable{
+        width: 50rem;
+    }
+
+    .growthFlex{
+        width: 50rem;
+        gap: 4rem;
+    }
+
+    .growthFlex p{
+        font-size: 1.3rem;
+    }
+
+    .growthImg{
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .growthImgDiv{
+        width: 20rem;
+        height: 15rem;
+        align-self: center;
+    }
+
+    .footer{
+        width: 55rem;
+    }
+
+    .footerText{
+        width: 50rem;
+        margin: 0;
+    }
+
+    
+    .footerSections{
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 4rem;
+
+    }
+
+    .footerSections p{
+        font-size: 4rem;
+    }
+
+    .footerTitle h6{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:900px){
+    .mainTitle{
+        width: 45rem;
+    }
+    
+    .mainTitle h1{
+        font-size: 2rem;
+    }
+
+    .mainTitle p{
+        font-size: 2rem;
+    }
+
+    .mainTitle span{
+        font-size: 1.3rem;
+        width: 35rem;
+    }
+
+    .title h1{
+        font-size: 2rem;
+    }
+
+    .card{
+        width: 45rem;
+    }
+    
+    .cardSquare{
+        width: 45rem;
+        gap: 2rem;
+    }
+
+    .squareImg{
+        width: 1.7rem;
+        height: 1.7rem;
+    }
+    .cardSquare h2{
+        font-size: 1.3rem;
+    }
+
+    .cardSquare p{
+        font-size: 1.1rem;
+    }
+
+
+    .services{
+        width: 45rem;
+    }
+
+    .pricingCards{
+        width: 45rem;
+        gap: 1rem;
+    }
+
+    .planName{
+        font-size: 1.8rem;
+    }
+
+    .price{
+        font-size: 2rem;
+    }
+    
+    .features{
+        margin-bottom: 2rem;
+    }
+
+    .features li{
+        font-size: 1.1rem;
+    }
+
+    .pricingCards button{
+        width: 8rem;
+        margin: 0 auto;
+        font-size: 1.1rem;
+    }
+
+
+    .featureComparison{
+        width: 45rem;
+    }
+
+
+    .tableContainer{
+        width: 40rem;
+    }
+
+
+    .featureComparison th{
+        font-size: 1rem;
+    }
+
+    .featureComparison td{
+        font-size: 1rem;
+    }
+
+    .cardTable{
+        width: 45rem;
+    }
+
+
+    .growthFlex{
+        width: 45rem;
+        gap: 4rem;
+    }
+
+    .growthFlex p{
+        font-size: 1.2rem;
+    }
+
+    .growthImg{
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .growthImgDiv{
+        width: 20rem;
+        height: 15rem;
+        align-self: center;
+    }
+
+    .footer{
+        width: 45rem;
+        height: 35rem;
+    }
+
+    .footerText{
+        width: 40rem;
+        margin: 0;
+    }
+
+    
+    .footerSections{
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 4rem;
+
+    }
+
+    .footerSections p{
+        font-size: 3rem;
+    }
+
+    .footerTitle h6{
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width:750px){
+     .mainTitle{
+        width: 35rem;
+    }
+    
+    
+    .mainTitle h1{
+        font-size: 2.5rem;
+    }
+
+    .mainTitle p{
+        font-size: 2rem;
+    }
+
+    .mainTitle span{
+        font-size: 1.3rem;
+    }
+
+    .title h1{
+        font-size: 1.8rem;
+    }
+
+    .card{
+        width: 35rem;
+        height: auto;
+    }
+    
+    .cardSquare{
+        width: 35rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cardSquareItem{
+        height: 15rem;
+    }
+
+    .squareImg{
+        width: 2rem;
+        height: 2rem;
+    }
+    .cardSquare h2{
+        font-size: 1.5rem;
+    }
+
+    .cardSquare p{
+        font-size: 1.2rem;
+    }
+
+
+    .services{
+        width: 35rem;
+        margin-top: 6rem;
+    }
+
+
+    .pricingCards{
+        width: 35rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .pricingCard{
+        height: 25rem;
+    }
+
+    .planName{
+        font-size: 2rem;
+    }
+
+    .price{
+        font-size: 2.5rem;
+    }
+    
+    .features{
+        margin-bottom: 2rem;
+    }
+
+    .features li{
+        font-size: 1.2rem;
+    }
+
+    .pricingCards button{
+        width: 9rem;
+        margin: 0 auto;
+        font-size: 1.2rem;
+    }
+
+    .featureComparison{
+        width: 35rem;
+        height: 40rem;
+        margin-bottom: 4rem;
+    }
+
+    .featureComparison th{
+        font-size: 1.1rem;
+    }
+
+    .featureComparison td{
+        font-size: 1.1rem;
+    }
+
+    
+
+    .tableContainer{
+        width: 35rem;
+    }
+
+    .cardTable{
+        width: 35rem;
+    }
+
+    .growthFlex{
+        width: 35rem;
+        gap: 4rem;
+    }
+
+    .growthFlex h2{
+        font-size: 1.4rem;
+    }
+
+    .growthFlex p{
+        font-size: 1.2rem;
+    }
+
+    .growthImg{
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .growthImgDiv{
+        width: 15rem;
+        height: 12rem;
+        align-self: center;
+        background-color: #00000000;
+    }
+
+    .footer{
+        width: 35rem;
+        margin-top: 8rem;
+    }
+
+    .footerText{
+        width: 30rem;
+        margin: 0;
+    }
+
+    
+    .footerSections{
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 4rem;
+
+    }
+
+    .footerSections p{
+        font-size: 3rem;
+    }
+
+    .footerTitle h6{
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width:600px){
+    .mainTitle{
+        width: 25rem;
+        margin-bottom: 4rem;
+    }
+
+    .mainTitle span{
+        font-size: 1.2rem;
+        width: 25rem;
+    }
+
+    .mainTitle p{
+        font-size: 1.5rem;
+    }
+
+    .mainTitle h1{
+        font-size: 1.9rem;
+    }
+
+    .title h1{
+        font-size: 1.9rem;
+    }
+
+    .cardSquare{
+        width: 25rem;
+    }
+
+    .card{
+        width: 25rem;
+        gap: 4rem;
+    }
+
+    .services{
+        width: 25rem;
+    }
+
+    .pricingCards{
+        width: 20rem;
+        margin-top: 4rem;
+    }
+
+    .featureComparison{
+        width: 25rem;
+        margin-bottom: 0;
+
+    }
+
+    .cardTable{
+        width: 25rem;
+        margin-top: 4rem;
+    }
+
+    .tableContainer{
+        width: 25rem;
+    }
+
+    .cardTable {
+        width: 25rem;
+        overflow: hidden; 
+    }
+
+    .tableContainer {
+        width: 100%;
+        overflow-x: auto;
+        display: block;   
+        -webkit-overflow-scrolling: touch; 
+    }
+
+    .caseTable {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .caseTable th,
+    .caseTable td {
+        white-space: nowrap;
+        text-align: left;
+        padding: 1.5rem 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .card{
+        width: 25rem;
+        margin-top: -6rem;
+    }
+
+    .growthFlex{
+        width: 25rem;
+        margin-left: -2.5rem;
+    }
+
+    .growthImgDiv{
+        display: none;
+    }
+
+    .footer{
+        width: 30rem;
+    }
+
+    .footerText{
+        width: 28rem;
+    }
+
+    .footerTitle h6{
+        font-size: 1.9rem;
+    }
+}
+
+@media (max-width:495px){
+    .mainTitle{
+        width: 18rem;
+        margin-bottom: 4rem;
+    }
+
+    .title h1{
+        font-size: 1.6rem;
+    }
+
+    .mainTitle span{
+        font-size: 1.2rem;
+        width: 18rem;
+    }
+
+    .mainTitle p{
+        font-size: 1.5rem;
+    }
+
+    .mainTitle h1{
+        font-size: 1.9rem;
+    }
+
+    .title h1{
+        font-size: 1.9rem;
+    }
+
+    .cardSquare{
+        width: 15rem;
+    }
+
+    .cardSquareItem{
+        width: 15rem;
+        height: 20rem;
+    }
+
+    .card{
+        width: 18rem;
+        gap: 4rem;
+    }
+
+    .services{
+        width: 18rem;
+    }
+
+    .pricingCards{
+        width: 15rem;
+        margin-top: 4rem;
+    }
+
+    .pricingCard{
+        width: 10rem;
+    }
+
+    .pricingCard button{
+        height: 3rem;
+    }
+
+    .features{
+        height: 15rem;
+    }
+
+    .planName{
+        font-size: 1.5rem;
+    }
+
+    .price{
+        font-size: 1.8rem;
+    }
+
+
+
+    .featureComparison{
+        width: 18rem;
+        margin-bottom: 0;
+
+    }
+
+    .cardTable{
+        width: 18rem;
+        margin-top: 4rem;
+    }
+
+    .tableContainer{
+        width: 18rem;
+    }
+
+    .caseTable th {
+        padding: 1rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .caseTable td {
+        padding: 1.5rem 1.5rem;
+        font-size: 0.9rem;
+    }
+
+
+    .card{
+        width: 18rem;
+        margin-top: -6rem;
+    }
+
+    .growthFlex{
+        width: 18rem;
+        margin-left: -2.5rem;
+    }
+
+    .growthFlex h2{
+        font-size: 1.5rem;
+    }
+
+    .growthFlex p{
+        font-size: 1.1rem;
+    }
+
+    .growthImgDiv{
+        display: none;
+    }
+
+    .footer{
+        width: 18rem;
+        height: 30rem;
+    }
+
+    .footerText{
+        width: 17rem;
+    }
+
+    .footerSections{
+        margin-top: 3rem;
+    }
+
+    .footerSections span{
+        font-size: 1.2rem;
+    }
+
+    .footerSections p{
+        font-size: 2rem;
+    }
+
+    .footerTitle h6{
+        font-size: 1.5rem;
+    }
 }
